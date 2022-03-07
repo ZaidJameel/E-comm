@@ -467,6 +467,9 @@ p:last-child {
   position: absolute;
   top:0;
 }
+.products .card .d-none .btn-danger{
+  margin-top: -120px;
+}
 .dn{
 	position: absolute;
 	margin-top: 7px;
@@ -962,6 +965,13 @@ a[class*=card]:hover .title {
   margin-bottom: 0;
 }
 
+.card-product-grid h6{
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    color: #c9c4c4;
+}
+
 /* Freshest Looks */
 .freshest-looks img{
   position: absolute;
@@ -1159,6 +1169,11 @@ a[class*=card]:hover .title {
 }
 .filter-group:last-child {
   border-bottom: 0;
+}
+
+/* BLOG */
+.blog a{
+  color: #a18268;
 }
 
 /* ====================== block ==================== */

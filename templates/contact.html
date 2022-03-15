@@ -41,27 +41,51 @@ $(document).ready(function() {
 </head>
 <body>
 
-<section class="sign_in">
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-6">
-			<img src="../static/images/banners/imagess.jpg" class="img-fluid"><br><br><br>
-			<a href="" class="text-center d-block">Create an account</a>
+<section class="contact">
+<div class="container mt-5">
+	<div class="row text-center">
+		<div class="col-md-3">
+			<i class="fa fa-location-arrow"></i><br><br>
+			<b>Address:</b> 198 West 21th Street, Suite 721 New York NY 10016
 		</div>
-		<div class="col-md-6">
-			<div class="float-right mr-5">
-				<h3>SIGN IN</h3>
+		<div class="col-md-3">
+			<i class="fa fa-phone"></i><br><br>
+			Phone: + 1235 2355 98
+		</div>
+		<div class="col-md-3">
+			<i class="fa fa-envelope"></i><br><br>
+			Email: info@yoursite.com
+		</div>
+		<div class="col-md-3">
+			<i class="fa fa-globe"></i><br><br>
+			Website yoursite.com
+		</div>
+	</div>
+</div>
+
+<div class="container frm">
+	<div class="row">
+		<div class="col-md-7 p-4">
+			<div>
+				<h3>CONTACT US</h3>
 			<form>
-				<input type="email" placeholder="Your Email"><br><br>
-				<input type="password" placeholder="Password"><br><br>
-				<input type="checkbox">  Remember me<br><br>
-				<input type="submit" value="Sign In">
-			</form><br><br>
-			Or Login with 
-			<a href="#"> <i class="fab fa-instagram"></i></a>
-			<a href="#"> <i class="fab fa-facebook"></i></a>
-			<a href="#"> <i class="fab fa-google"></i></a>
+				<div class="row">
+					<div class="col">
+						<input type="text" placeholder="Your Name"><br><br>
+					</div>
+					<div class="col">
+						<input type="email" placeholder="Your Email"><br><br>
+					</div>
+				</div>
+				<input type="number" placeholder="Phone No."><br><br>
+				<input type="text" placeholder="Subject" class="wd"><br><br>
+				<textarea placeholder="Message" class="wd"></textarea><br><br>
+				<input type="submit" value="Contact Us">
+			</form>
 			</div>
+		</div>
+		<div class="col-md-5 p-0">
+			<img src="../static/images/banners/imagess.jpg" class="img-fluid">
 		</div>
 	</div>
 </div>

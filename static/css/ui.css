@@ -934,7 +934,7 @@ a[class*=card]:hover .title {
   color: #3167eb;
 }
 .card-product-grid .fix-height {
-  height: 100px;
+  height: 120px;
   overflow: hidden;
 }
 .card-product-grid .btn-overlay {
@@ -979,10 +979,7 @@ a[class*=card]:hover .title {
 .freshest-looks .fl-contents{
   position: relative;
   padding-top: 15%;
-}
-
-.upto_40 {
-  margin-top: 19%;
+  margin-bottom: 19%;
 }
 
 .line{
@@ -994,6 +991,69 @@ a[class*=card]:hover .title {
   color: #a18268;
   text-decoration: none;
 }
+/* PRODUCT DETAILS */
+.p_details .d_images {
+  width: 75px; 
+  height: 475px; 
+  overflow: scroll;
+}
+.p_sticky{
+  position: sticky;
+  top: 20px;
+}
+.p_details .main_img img{
+  height: 475px;
+  width: 100%;
+}
+.d_images::-webkit-scrollbar {
+  display: none;
+}
+.d_images {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.prepaid_get img{
+  position: absolute;
+}
+.prepaid_get .pg_contents{
+  position: relative;
+  padding: 1%;
+  top: 75px;
+  left: 75px;
+  margin-bottom: 25%;
+  background-color: #f5ddc9;
+  width: 400px;
+}
+.prepaid_get .bdr{
+  border: 2px solid #a94c09;
+  padding: 6%;
+}
+.reviews .col-md-6 div{
+  box-shadow: 0px 2px 6px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/*  */
+.bb{
+  margin: 0 auto;
+  width: 0px;
+  height: 2px;
+  background-color: brown;
+  transition: width 1s;
+}
+.b_anim:hover .bb{
+  width: 100%;
+}
+.b_anim a{
+  border-bottom: 1px solid #80808021; 
+  color: #000;
+}
+
+.order_note{
+  background-color: #bdbdbd12;
+}
+
 
 /* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list {
@@ -1147,7 +1207,7 @@ a[class*=card]:hover .title {
 .price-old {
   color: #969696;
   margin-left: 3px;
-  font-size: 85%;
+  font-size: 83%;
 }
 
 .icon-control {
@@ -1216,6 +1276,17 @@ a[class*=card]:hover .title {
   color: #bb987b;
   border-bottom: 1px solid #fbe9e9;
 }
+.wholesale .line{
+  width: 20%;
+  height: 5px;
+  background-color: maroon;
+  transition: width 0.5s ease;
+}
+.wholesale .line:hover{
+  width: 40%;
+  height: 2px;
+}
+
 
 /* CONTACT */
 .contact i{

@@ -79,6 +79,29 @@
   .navbar-expand .navbar-collapse {
     flex-direction: column;
   }
+
+
+
+
+  .freshest-looks img{
+    height: 30vh;
+  }
+  
+  .upto_40 h4{
+    font-size: 16px;
+  }
+  .upto_40 img{
+    height: 155px;
+  }
+  .featured .row{
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .featured .col-md-3{
+    max-width: 67%;
+  }
+
 }
+
 
 /*# sourceMappingURL=responsive.css.map */

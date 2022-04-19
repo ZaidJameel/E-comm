@@ -387,6 +387,9 @@ article:after,
   font-weight: 600;
 }
 
+.t-clr{
+  color: #a18268;
+}
 .white {
   color: #fff;
 }
@@ -549,6 +552,14 @@ footer .text-center li {
   padding-bottom: 20px;
 }
 
+
+footer a{
+  text-decoration: none;
+  color: #a18268;
+}
+footer a:hover{
+  color: #a18268;
+}
 /* ================== COMPONENTS =================== */
 /* ================ OWL SLIDER BANNER ================ */
 .slider-banner-owl .owl-nav .owl-prev, .slider-banner-owl .owl-nav .owl-next {
@@ -981,6 +992,25 @@ a[class*=card]:hover .title {
   padding-top: 15%;
   margin-bottom: 19%;
 }
+.fl-contents button{
+  border: 2px solid white;
+  color: white;
+}
+
+
+.upto_40{
+  background: white;
+  margin: 20px;
+  padding: 10px;
+}
+.upto_40 .container-fluid{
+  border: 2px solid #a18268;
+}
+.upto_40 .row{
+  margin-left: 0;
+}
+
+
 
 .line{
   width: 100%;
@@ -1053,7 +1083,32 @@ scrollbar-width: none;  /* Firefox */
 .order_note{
   background-color: #bdbdbd12;
 }
+/* MENS */
+.bgi_mns{
+  background-image: url(../images/banners/shawls.jpg);
+  background-attachment: fixed;
+  height: 400px;
+}
+.bgi_mns , .bgi_wmns p {
+  padding-top: 15%;
+}
+.bgi_wmns{
+  background-image: url(../images/banners/k.jpg);
+  background-attachment: fixed;
+  height: 400px;
+}
+.products .category h6{
+  left: 28%;
+}
 
+/* RETURN */
+.return a{
+  color: #a18268;
+}
+.page-width--narrow {
+  max-width: 1000px;
+  margin: auto;
+}
 
 /* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list {
